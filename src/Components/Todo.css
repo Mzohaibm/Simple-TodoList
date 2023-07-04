@@ -1,0 +1,26 @@
+.todo_wrap {
+  background-color: rgb(18, 219, 246);
+  width: 400px;
+  padding: 16px;
+  border-radius: 5px;
+  margin: auto;
+}
+.todo_wrap input {
+  padding: 12px;
+  margin-right: 10px;
+}
+.todo_wrap button {
+  padding: 12px;
+  margin-left: 10px;
+}
+.todo_wrap input:focus {
+  outline: none;
+}
+.todo_wrap button:focus {
+  outline: none;
+}
+.todo_header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
